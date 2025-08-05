@@ -47,7 +47,9 @@ const Projects = () => {
             <p className="text-white text-2xl font-semibold animatedText">{currentProject.title}</p>
 
             <p className="animatedText">{currentProject.desc}</p>
-            <p className="animatedText">{currentProject.subdesc}</p>
+            <p className="animatedText">{currentProject.subdesc1}</p>
+            <p className="animatedText">{currentProject.subdesc2}</p>
+            <p className="animatedText">{currentProject.subdesc3}</p>
           </div>
 
           <div className="flex items-center justify-between flex-wrap gap-5">
@@ -86,7 +88,7 @@ const Projects = () => {
             <directionalLight position={[10, 10, 5]} />
             <Center>
               <Suspense fallback={<CanvasLoader />}>
-                <group scale={2} position={[0, -3, 0]} rotation={[0, -0.1, 0]}>
+                <group scale={1.5} position={[0, -2, 0]} rotation={[0, -0.1, 0]}>
                   <DemoComputer texture={currentProject.texture} />
                 </group>
               </Suspense>

@@ -58,13 +58,17 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-    subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+    title: 'StudentX – AI-Powered Learning Platform',
+    desc: 'An AI-powered MERN stack platform designed to help students explore career paths, optimize resumes, and discover personalized job opportunities—empowering them with skills, guidance, and real-world readiness. ',
+    subdesc1:
+      'Developed AI features like smart resume optimization and career roadmap generation using external AI APIs.',
+    subdesc2:
+      'Enabled JWT-authenticated user access with secure payment gateway and role-based dashboards.',
+    subdesc3:
+      'Scaled platform to serve 1000+ students with curated learning paths and job suggestions',
     href: 'https://gyan-ganga-podcastr-hdp2.vercel.app/',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    logo: '/assets/StudentX-logo.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -95,13 +99,17 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-    subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+    title: 'Chattrix – Real-Time Chat Application',
+    desc: 'A feature-rich full-stack chat application built with MERN and Socket.IO, enabling seamless one-to-one messaging, media sharing, and real-time communication across devices with a secure and responsive user experience',
+    subdesc1:
+      'Engineered real-time one-to-one messaging, typing indicators, and media sharing using WebSockets and Socket.IO',
+    subdesc2:
+      'Implemented JWT based authentication and role-based access control for secure user management.',
+    subdesc3:
+      'Designed a clean, responsive UI with React and Tailwind CSS for smooth cross-device experience.',
     href: '#',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    logo: '/assets/Chattrix Logo.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -132,10 +140,14 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-    subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+    title: 'Hotel Booking System ',
+    desc: 'A full-featured hotel booking web app built using the MERN stack and Clerk, offering real-time room availability, secure authentication, role-based access, and a responsive user interface for smooth booking experiences.',
+    subdesc1:
+      'Built complete hotel, room, and booking management with Express.js, MongoDB, and RESTful APIs',
+    subdesc2:
+      'Integrated Clerk authentication with session handling and role-based access for users/admins.',
+    subdesc3:
+      'Developed responsive frontend using React and Tailwind, enabling smooth booking flows and real-time availability.',
     href: '#',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
@@ -170,80 +182,80 @@ export const myProjects = [
       },
     ],
   },
-  {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: '#',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
-    logoStyle: {
-      backgroundColor: '#0E1F38',
-      border: '0.2px solid #0E2D58',
-      boxShadow: '0px 0px 60px 0px #2F67B64D',
-    },
-    spotlight: '/assets/spotlight4.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: '#',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
-    },
-    spotlight: '/assets/spotlight5.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
+  // {
+  //   title: 'Horizon - Online Banking Platform',
+  //   desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+  //   subdesc:
+  //     'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+  //   href: '#',
+  //   texture: '/textures/project/project4.mp4',
+  //   logo: '/assets/project-logo4.png',
+  //   logoStyle: {
+  //     backgroundColor: '#0E1F38',
+  //     border: '0.2px solid #0E2D58',
+  //     boxShadow: '0px 0px 60px 0px #2F67B64D',
+  //   },
+  //   spotlight: '/assets/spotlight4.png',
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: 'React.js',
+  //       path: '/assets/react.svg',
+  //     },
+  //     {
+  //       id: 2,
+  //       name: 'TailwindCSS',
+  //       path: 'assets/tailwindcss.png',
+  //     },
+  //     {
+  //       id: 3,
+  //       name: 'TypeScript',
+  //       path: '/assets/typescript.png',
+  //     },
+  //     {
+  //       id: 4,
+  //       name: 'Framer Motion',
+  //       path: '/assets/framer.png',
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: 'Imaginify - AI Photo Manipulation App',
+  //   desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+  //   subdesc:
+  //     'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+  //   href: '#',
+  //   texture: '/textures/project/project5.mp4',
+  //   logo: '/assets/project-logo5.png',
+  //   logoStyle: {
+  //     backgroundColor: '#1C1A43',
+  //     border: '0.2px solid #252262',
+  //     boxShadow: '0px 0px 60px 0px #635BFF4D',
+  //   },
+  //   spotlight: '/assets/spotlight5.png',
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: 'React.js',
+  //       path: '/assets/react.svg',
+  //     },
+  //     {
+  //       id: 2,
+  //       name: 'TailwindCSS',
+  //       path: 'assets/tailwindcss.png',
+  //     },
+  //     {
+  //       id: 3,
+  //       name: 'TypeScript',
+  //       path: '/assets/typescript.png',
+  //     },
+  //     {
+  //       id: 4,
+  //       name: 'Framer Motion',
+  //       path: '/assets/framer.png',
+  //     },
+  //   ],
+  // },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -270,12 +282,12 @@ export const workExperiences = [
   // },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2024 - Present',
+    name: 'YBI Foundation',
+    pos: 'Python Programming Intern',
+    duration: 'June 2024 - July 2024',
     title:
-      'Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.',
-    icon: '/assets/figma.svg',
+      'Developed and deployed a QR-based ordering system for cafes, enabling customers to place orders through scanned QR codes. Built the core system using Python with integrated database connectivity for order management.Designed a user-friendly UI to simplify the ordering process and enhance customer experience. Gained practical exposure in real-world application development, team collaboration, and project execution.',
+    icon: '/assets/python-logo.jpg',
     animation: 'clapping',
   },
   // {

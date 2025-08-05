@@ -23,10 +23,9 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Rohan Vishwakarma</p>
+              <p className="grid-headtext">Hi, I’m Mohd. Shaqib Raza</p>
               <p className="grid-subtext">
-                With 1 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+                I am a Full-Stack Developer specializing in the MERN stack. I build clean, high-performance web applications with a strong focus on intuitive user experience and scalable backend architecture.
               </p>
             </div>
           </div>
@@ -64,7 +63,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
               <p className="grid-subtext">
-                I&apos;m based in Uttar Pradesh, India(Bharat) and open to remote work worldwide.
+                I&apos;m based in Uttar Pradesh, India and open to remote work worldwide.
               </p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
@@ -78,8 +77,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                I am passionate about using code to build elegant solutions for complex problems. This isn't just my job; it's my craft. I constantly explore new technologies to ensure the applications I build are not just functional, but exceptional.
               </p>
             </div>
           </div>
@@ -98,7 +96,7 @@ const About = () => {
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
                 <p className="lg:text-1xl md:text-xl font-medium text-gray_gradient text-white">
-                  rohanvishwakarma8261@gmail.com
+                  iammsr19413m@gmail.com
                 </p>
               </div>
             </div>
