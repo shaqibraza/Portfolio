@@ -15,7 +15,7 @@ body {
 
 @layer utilities {
   .c-space {
-    @apply sm:px-10 px-5;
+    @apply sm:px-10;
   }
 
   .head-text {
@@ -117,7 +117,7 @@ body {
   }
 
   .work-content_logo {
-    @apply rounded-3xl w-16 h-16 p-2 bg-black-600;
+    @apply rounded-3xl sm:w-16 sm:h-16 p-2 bg-black-600;
   }
 
   .work-content_bar {

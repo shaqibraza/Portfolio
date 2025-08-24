@@ -10,7 +10,7 @@ const WorkExperience = () => {
   const [animationName, setAnimationName] = useState('idle');
 
   return (
-    <section className="c-space my-20" id="work">
+    <section className="sm:c-space my-20" id="work">
       <div className="w-full text-white-600">
         <p className="head-text">My Work Experience</p>
 
@@ -29,7 +29,7 @@ const WorkExperience = () => {
           </div>
 
           <div className="work-content">
-            <div className="sm:py-10 py-5 sm:px-5 px-2.5">
+            <div className="sm:py-10 py-5 sm:px-5 flex-col">
               {workExperiences.map((item, index) => (
                 <div
                   key={index}
@@ -39,13 +39,13 @@ const WorkExperience = () => {
                   className="work-content_container group">
                   <div className="flex flex-col h-full justify-start items-center py-2">
                     <div className="work-content_logo">
-                      <img className="w-full h-full" src={item.icon} alt="" />
+                      <img className="w-5 h-5 sm:w-14 sm:h-14 sm:rounded pb-1" src={item.icon} alt="" />
                     </div>
 
                     <div className="work-content_bar" />
                   </div>
 
-                  <div className="sm:p-5 px-2.5 py-5">
+                  <div className="sm:p-5 px-1.5 py-5">
                     <p className="font-bold text-white-800">{item.name}</p>
                     <p className="text-sm mb-5">
                       {item.pos} -- <span>{item.duration}</span>

@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/90">
       <div className="max-w-7xl mx-auto">
-        <div className="flex justify-between items-center py-5 mx-auto c-space">
+        <div className="flex justify-between items-center py-5 mx-auto px-5">
           <a href="/" className="text-neutral-400 font-bold text-xl hover:text-white transition-colors">
             <img src="assets/profile.jpg" alt="Logo" className="w-8 h-8 inline-block mr-2 border-2 border-gray-300 rounded-full" />
             Mohd. Shaqib Raza

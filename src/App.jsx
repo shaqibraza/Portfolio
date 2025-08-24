@@ -9,7 +9,7 @@ import WorkExperience from './sections/Experience.jsx';
 
 const App = () => {
   return (
-    <main className="px-16 mx-auto relative">
+    <main className="sm:px-10 px-8 mx-auto relative">
       <Navbar />
       <Hero />
       <About />

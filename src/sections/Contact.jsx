@@ -72,14 +72,14 @@ const Contact = () => {
         <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
 
         <div className="contact-container">
-          <h3 className="head-text mt-20">Let's talk</h3>
-          <p className="text-lg text-white-600 mt-3">
+          <h3 className="head-text sm:mt-16 mt-5">Let's talk</h3>
+          <p className="text-lg text-white-600 sm:mt-8 mt-2">
             Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
             life, I’m here to help.
           </p>
 
-          <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
-            <label className="space-y-3">
+          <form ref={formRef} onSubmit={handleSubmit} className="sm:mt-12 mt-5 flex flex-col sm:space-y-12 space-y-7">
+            <label className="sm:space-y-5 space-y-2">
               <span className="field-label">Full Name</span>
               <input
                 type="text"
@@ -88,7 +88,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., John Doe"
+                placeholder="Enter Your Name"
               />
             </label>
 
@@ -101,7 +101,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., example@gmail.com"
+                placeholder="example@gmail.com"
               />
             </label>
 
