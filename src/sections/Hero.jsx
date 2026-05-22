@@ -49,7 +49,7 @@ const Hero = () => {
             </a>
 
             {/* GitHub Icon */}
-            <a href="https://github.com/IamMSR-01" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/shaqibraza" target="_blank" rel="noopener noreferrer">
               <Github className="w-7 h-7 text-white cursor-pointer transition-transform duration-300 hover:scale-100 hover:-translate-y-1 hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.8)]" />
             </a>
 
