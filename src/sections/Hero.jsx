@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="w-full mt-36 lg:w-1/2 flex flex-col items-center text-center lg:text-left">
           <img
             className="w-40 h-40 mb-8 rounded-full object-cover border-4 border-gray-300"
-            src="assets/profile.jpg"
+            src="assets/Shaqib Profile Pic.png"
             alt=""
           />
           <p className="sm:text-4xl text-xl font-semibold text-white font-generalsans">
